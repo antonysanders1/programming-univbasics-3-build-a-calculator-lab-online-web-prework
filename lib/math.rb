@@ -11,7 +11,7 @@ end
 def division(num1, num2)
   num1 / num2
 end
-  division(81, 9)
+  division(81.0, 9)
 
 def multiplication(num1, num2)
   num1* num2
@@ -19,9 +19,9 @@ end
   multiplication(2,2)
   
 def modulo(num1, num2)
-  
+  num1 / num2
 end
-
+  modulo(8, 3)
 
 def square_root(num)
   num = num.Float // 2
