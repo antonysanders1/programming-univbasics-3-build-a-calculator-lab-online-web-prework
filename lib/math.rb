@@ -24,6 +24,6 @@ end
   modulo(8, 3)
 
 def square_root(num)
-  num = num.Float // 2
+  
 end
   square_root(4.0)
