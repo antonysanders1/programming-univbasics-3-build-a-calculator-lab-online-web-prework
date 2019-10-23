@@ -1,20 +1,20 @@
 def addition(num1, num2)
-  num1.Float + num2.Float
+  num1 + num2
 end
-  addition(3.0, 2.0)
+  addition(3, 2)
 
 def subtraction(num1, num2)
-  num1.Float - num2.Float
+  num1 - num2
 end
-  subtraction(42.0, 13.0)
+  subtraction(42, 13)
 
 def division(num1, num2)
-  num1.Integer / num2.Integer
+  num1 / num2
 end
   division(81, 9)
 
 def multiplication(num1, num2)
-  num1.Integer * num2.Integer
+  num1* num2
 end
   multiplication(2,2)
   
@@ -24,6 +24,6 @@ end
 
 
 def square_root(num)
-  num = num.Integer ** 2
+  num = num ** 2
 end
   square_root(4)
