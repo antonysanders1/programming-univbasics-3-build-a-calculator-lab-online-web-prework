@@ -19,9 +19,11 @@ end
   multiplication(2,2)
   
 def modulo(num1, num2)
-
+  num1 = num1.Float / num2.Float
 end
+  modulo(10.0, 3.0)
 
 def square_root(num)
-num = num.Float ** 2
+  num = num.Integer ** 2
 end
+  square_root(4)
