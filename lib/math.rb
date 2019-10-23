@@ -11,7 +11,7 @@ end
 def division(num1, num2)
   num1 / num2
 end
-  division(81.0, 9)
+  division(52, 2)
 
 def multiplication(num1, num2)
   num1 * num2
